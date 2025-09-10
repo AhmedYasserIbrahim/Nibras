@@ -53,7 +53,7 @@ At this stage, the work is considered **group-level contribution**; task-level b
 
 **Week 9 (October)**  
 - Project design and system modeling  
-- Build pipeline for data collection and preprocessing  
+- Build pipeline for data collection and preprocessing (including artifact removal) 
 
 **Week 11 (Mid-October)**  
 - Start data collection (pilot with 4–5 volunteers)  
