@@ -79,8 +79,8 @@ At this stage, the work is considered **group-level contribution**; task-level b
 
 ## Expected Deliverables per Stage
 - **Week 5:** Project proposal with objectives, methods, timeline  
-- **Week 9:** System design and data collection pipeline  
-- **Week 11:** Initial dataset and pilot classification results  
+- **Week 7:** System design and data collection pipeline + Receiving and Preparing EEG Headsets  
+- **Week 10:** Initial dataset and pilot classification results  
 - **Week 13:** Expanded dataset, trained models, evaluation results  
 - **Week 14:** MVP prototype of speller interface + draft research paper  
 - **Week 15:** Final paper, documentation, and project presentation  
