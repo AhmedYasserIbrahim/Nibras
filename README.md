@@ -1,7 +1,7 @@
 # Nibras
 ## 🧠 EEG-Based Communication System for Non-Verbal Individuals  
 **Senior Project – CS499**  
-Prince Sultan University is Cool 
+Prince Sultan University 
 
 ---
 
