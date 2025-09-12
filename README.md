@@ -24,20 +24,16 @@ Communication is a fundamental human right, yet many individuals with severe dis
 
 ## 📚 Earlier/Similar Work
 
-- ### **EEG-Based Brain-Computer Interfaces Using Motor-Imagery: Techniques and Challenges** (2019)  
-[Link to paper](https://www.mdpi.com/1424-8220/19/6/1423)  
+- ### **[EEG-Based Brain-Computer Interfaces Using Motor-Imagery: Techniques and Challenges** (2019)] (https://www.mdpi.com/1424-8220/19/6/1423)  
 This paper reviews how motor imagery (MI) can be used in brain-computer interfaces. It explains how imagining limb movements changes EEG rhythms and outlines methods for processing and classifying these signals, such as preprocessing, feature extraction, and machine learning. It also discusses the main challenges, like signal noise and differences between users. This work is relevant to us because it provides useful methods for handling EEG data and supports our focus on MI as the core of our communication system.
 
-- ### **A State-of-the-Art Review of EEG-Based Imagined Speech Decoding** (2022)  
-[Link to paper](https://www.frontiersin.org/articles/10.3389/fnhum.2022.867281/full)  
+- ### **[A State-of-the-Art Review of EEG-Based Imagined Speech Decoding** (2022)] (https://www.frontiersin.org/articles/10.3389/fnhum.2022.867281/full)  
 This review looks at research that uses EEG to decode imagined speech as a way for people with disabilities to communicate. Most of the surveyed work relies on imagined speech (silently thinking words) instead of motor imagery, which is our approach. Many studies used older models like SVM and often had low accuracy, especially for multi-class tasks. Even so, the paper is a useful benchmark, giving us results to compare against and showing the advantages of choosing MI over imagined speech.
 
-- ### **A study of motor imagery EEG classification based on feature fusion and attentional mechanisms** (2025)  
-[Link to paper](https://www.frontiersin.org/articles/10.3389/fnhum.2025.1611229/full)  
+- ### **[A study of motor imagery EEG classification based on feature fusion and attentional mechanisms** (2025)] (https://www.frontiersin.org/articles/10.3389/fnhum.2025.1611229/full)  
 This recent paper proposes a deep learning model for motor imagery EEG classification. The model combines different features with attention mechanisms and achieves high accuracy while staying lightweight. Although it is not designed for our exact use case, it gives us ideas for building efficient models that can run in real time. We see this work as a helpful reference for designing and improving our own classification system.
 
-- ### **Perrikaryal EEG Gaming Demonstration** (2023)  
-[Link to article](https://spectrum.ieee.org/elden-ring-hands-free-controller)  
+- ### **[Perrikaryal EEG Gaming Demonstration** (2023)] (https://spectrum.ieee.org/elden-ring-hands-free-controller)  
 Twitch streamer Perrikaryal showed how the **Emotiv EPOC X headset** can be used in real time to play *Elden Ring* with EEG signals. She mapped brain signal patterns to game actions, proving that online EEG classification is possible with consumer hardware. While not academic research, this demonstration is directly relevant to us because it uses the same headset and setup style we plan to use. It inspired our project and supports the feasibility of extending this approach from gaming to communication.
 
 
