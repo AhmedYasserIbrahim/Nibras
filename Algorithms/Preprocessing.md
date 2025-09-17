@@ -39,7 +39,9 @@
   4. Reconstruct EEG using only clean ICs.  
 - **Benefit for MI:**  
   - Removes EOG/EMG/ECG contamination without distorting oscillations in motor cortex.  
-  - Preserves key µ and β rhythms critical for MI decoding.  
+  - Preserves key µ and β rhythms critical for MI decoding.
+- **Available Implementations:**  
+  - **Python:** [`mikbuch/bss_ica_eeg`]([https://github.com/DiGyt/asrpy](https://github.com/mikbuch/bss_ica_eeg?utm_source=chatgpt.com)) — Python implementation of ICA, Uses MNE-Python to apply ICA for artifact removal in EEG.  
 
 ---
 
