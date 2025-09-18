@@ -185,5 +185,3 @@ Our experiments show clear **trade-offs** between efficiency and accuracy:
 Overall, for **real-time applications** where **speed is critical**, **SymSpell** is the most practical. For scenarios where **accuracy is more important** than latency, **PySpellChecker** is preferable. To improve context-aware correction, integrating a **proper language model** with SymSpell candidates would likely yield the best of both worlds.
 
 📓 The full notebook with code for each model and its testing results can be accessed here: [Colab Notebook](https://colab.research.google.com/drive/1lEITvAL1paxqF4sKESisg458r4AfPGrR?usp=sharing)
-```
-
