@@ -1,6 +1,6 @@
 # Auto Correct Model
 
-In our case, the autocorrection system needs to be **word-based and efficient** because the text is generated letter by letter from EEG signals. A word-level correction avoids the complexity of context-dependent models and provides fast, lightweight corrections that can run in real time. Since the system is meant to support individuals with severe disabilities, efficiency is crucial—delays or heavy models would make communication slow and impractical. Therefore, choosing a correction approach that balances **accuracy with real-time performance** is essential:contentReference[oaicite:0]{index=0}.  
+In our case, the autocorrection system needs to be **word-based and efficient** because the text is generated letter by letter from EEG signals. A word-level correction avoids the complexity of context-dependent models and provides fast, lightweight corrections that can run in real time. Since the system is meant to support individuals with severe disabilities, efficiency is crucial—delays or heavy models would make communication slow and impractical. Therefore, choosing a correction approach that balances **accuracy with real-time performance** is essential.
 
 ---
 
