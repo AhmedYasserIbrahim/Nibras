@@ -16,17 +16,6 @@ Since TTS will be triggered **immediately after each word**, the reconstruction 
 
 ---
 
-## Model Choices for Word Reconstruction
-
-| Model Type              | Pros                                                | Cons                                                   | Best Use Case |
-|--------------------------|----------------------------------------------------|--------------------------------------------------------|---------------|
-| **n-gram LM (Char/Word)** | - Extremely fast <br> - Very lightweight <br> - Easy to train | - Limited context (short history) <br> - Weak for rare words | Baseline real-time correction |
-| **Small RNN (LSTM/GRU)** | - Supports longer context <br> - Incremental decoding | - Slightly heavier than n-grams <br> - Still weaker than Transformers | Streamable, better than n-grams |
-| **Compact Transformer (causal, e.g. DistilGPT-2 small)** | - Strong language modeling <br> - Can capture longer dependencies | - More compute <br> - Needs optimization for real-time | When stronger LM is needed but latency budget allows |
-| **BERT/Masked LM**       | - Excellent at sentence-level correction <br> - Strong semantic understanding | - Needs future context (not streamable) <br> - High latency and compute | Offline or sentence-level polishing only |
-
----
-
 ## Summary
 
-For this project, **word-based reconstruction with either an n-gram LM or a small RNN/Transformer LM** is the best trade-off. BERT and sentence-level correction approaches are not suitable for real-time speech because they require full-sentence context and introduce unacceptable latency.
+For this project, **word-based reconstruction** will most probably be our go-to choice. Spelling correction for words one by one is necessary, as we aim to implement a text to speech model after this step in the pipeline. Even though the sentence based model may improve the overall accuracy as it relies on the context for spelling correction, it would be inconvenient to wait for the user to formulate the entire sentence before running the auto correction and then converting it to audible speech. One potential solution is to look for a model that relies on the past context to correct the current word, without looking at the sentence as a whole. For example: "I eat aple" -> When the model is constructing "aple" it looks at the past couple of words in a way similar to n-gram models. This is to be discussed with Dr. Moataz as it is a purely NLP task. 
