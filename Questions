@@ -1,0 +1,5 @@
+1. Letters that need to be mapped, specifically, remove a letter and add a space.
+
+Concerns are: How to end the sentence and how to seperate words.
+
+2. Do we collect data for continious letters? Or do we depend on our Noise removal baseline?
