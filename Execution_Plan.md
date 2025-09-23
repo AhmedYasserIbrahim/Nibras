@@ -22,7 +22,8 @@ This protocol describes how to collect EEG data for mapping 10 distinct imagined
 | **S** | Lip purse | Imagine pursing your lips tightly, as if to whistle. |
 | **H** | Shoulder shrug | Imagine lifting both shoulders upward toward your ears. |
 | **R** | Head nod | Imagine nodding your head up and down (yes gesture). |
-| **D** | Rest/neutral | Stay relaxed, blank mind, no imagery. |
+| **D** | Brow raise | Imagine lifting your eyebrows upward as if in surprise. |
+| **Control**    | Rest/neutral       | Stay relaxed, blank mind, no imagery. |
 
 ---
 
